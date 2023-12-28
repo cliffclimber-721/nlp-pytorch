@@ -27,6 +27,7 @@ def torch_parameter_testing():
 
     for epoch in range(10000):
         output = model(x)
+        # x에 관해서 linear 모델을 실행하고 
         cost = criteria(output, y)
 
         # optim 패키지 사용할 때 zero.grad => backward => step 순서대로 호출해준다
