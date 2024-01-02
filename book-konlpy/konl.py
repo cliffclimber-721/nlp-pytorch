@@ -1,7 +1,7 @@
 from konlpy.tag import Okt
 okt = Okt()
 
-sentence = "나는 대학원생입니다."
+sentence = "서울의 봄은 황정민 배우가 만든 2023년 최고의 블랙 코미디 영화입니다."
 
 noun = okt.nouns(sentence)
 phrase = okt.phrases(sentence)
